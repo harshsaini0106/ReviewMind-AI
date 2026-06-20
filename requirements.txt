@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 streamlit
 langgraph
 langchain
@@ -8,3 +9,15 @@ python-dotenv
 pydantic
 transformers
 accelerate
+=======
+streamlit
+langgraph
+langchain
+langchain-core
+langchain-huggingface
+huggingface-hub
+python-dotenv
+pydantic
+transformers
+accelerate
+>>>>>>> d80639b6edeca6f77ebfae375eb6104ea74cb755

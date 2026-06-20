@@ -1,4 +1,3 @@
-
 from langgraph.graph import StateGraph, START, END
 from langchain_huggingface import ChatHuggingFace,HuggingFaceEndpoint
 from typing import TypedDict, Literal
@@ -93,4 +92,5 @@ workflow=graph.compile()
 intial_state={
     'review': "I’ve been trying to log in for over an hour now, and the app keeps freezing on the authentication screen. I even tried reinstalling it, but no luck. This kind of bug is unacceptable, especially when it affects basic functionality."
 }
+
 workflow.invoke(intial_state)
